@@ -1,0 +1,100 @@
+{
+    "app": {
+        "title": "Sistema de Facturación",
+        "footer": "Desarrollado con PHP, MySQL y Bootstrap 5"
+    },
+    "navigation": {
+        "invoices": "Facturas",
+        "new_invoice": "Nueva factura"
+    },
+    "theme": {
+        "light": "Modo claro",
+        "dark": "Modo oscuro"
+    },
+    "language": {
+        "spanish": "Español",
+        "english": "Inglés"
+    },
+    "invoices": {
+        "title": "Facturas registradas",
+        "description": "Consulta y administra los comprobantes registrados.",
+        "new_invoice": "Nueva factura",
+        "history": "Historial de facturas",
+        "records": "registros",
+        "folio": "Folio",
+        "client": "Cliente",
+        "date": "Fecha",
+        "currency": "Moneda",
+        "total": "Total",
+        "actions": "Acciones",
+        "empty": "No hay facturas registradas.",
+        "view_detail": "Ver detalle",
+        "filter_title": "Filtrar facturas",
+        "filter_client": "Cliente",
+        "all_clients": "Todos los clientes",
+        "filter_currency": "Moneda",
+        "all_currencies": "Todas las monedas",
+        "start_date": "Fecha inicial",
+        "end_date": "Fecha final",
+        "filter_button": "Filtrar",
+        "clear_filters": "Limpiar filtros",
+        "invalid_date_range": "La fecha inicial no puede ser posterior a la fecha final."
+    },
+    "common": {
+        "back": "Regresar",
+        "client": "Cliente",
+        "actions": "Acciones",
+        "subtotal": "Subtotal:",
+        "tax": "IVA (16%):",
+        "total": "Total:",
+        "cancel": "Cancelar"
+    },
+    "create_invoice": {
+        "title": "Nueva factura",
+        "description": "Registra una nueva factura y sus respectivas partidas.",
+        "general_data": "Datos generales",
+        "select_client": "Seleccionar cliente",
+        "currency": "Moneda",
+        "select_currency": "Seleccionar moneda",
+        "series": "Serie",
+        "select_series": "Seleccionar serie",
+        "issue_date": "Fecha de emisión",
+        "items": "Partidas de la factura",
+        "add_item": "Agregar partida",
+        "concept": "Concepto",
+        "quantity": "Cantidad",
+        "unit_price": "Valor unitario",
+        "amount": "Importe",
+        "items_help": "Agrega los conceptos correspondientes a la factura.",
+        "summary": "Resumen de factura",
+        "save": "Guardar factura",
+        "item_placeholder": "Descripción del producto o servicio",
+        "delete_item": "Eliminar partida"
+    },
+    "alerts": {
+        "delete_item_title": "¿Eliminar partida?",
+        "delete_item_text": "Esta partida será retirada de la factura.",
+        "delete": "Sí, eliminar",
+        "no_items_title": "Sin partidas",
+        "no_items_text": "Debes agregar al menos un producto o servicio.",
+        "invalid_item_title": "Partida inválida",
+        "invalid_item_text": "Revisa la descripción, cantidad y valor de tus partidas.",
+        "save_invoice_title": "¿Registrar factura?",
+        "save_invoice_text": "Se guardará la factura con sus partidas correspondientes.",
+        "confirm_register": "Sí, registrar",
+        "review": "Revisar"
+    },
+    "invoice_detail": {
+        "title": "Detalle de factura",
+        "description": "Consulta la información del comprobante registrado.",
+        "generate_pdf": "Generar PDF",
+        "document_information": "Información del comprobante",
+        "series": "Serie:",
+        "number": "Número:",
+        "date": "Fecha:",
+        "currency": "Moneda:",
+        "client_information": "Información del cliente",
+        "name": "Nombre:",
+        "items": "Partidas de la factura"
+    }
+}

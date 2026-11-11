@@ -1,0 +1,100 @@
+{
+    "app": {
+        "title": "Invoicing System",
+        "footer": "Developed with PHP, MySQL and Bootstrap 5"
+    },
+    "navigation": {
+        "invoices": "Invoices",
+        "new_invoice": "New invoice"
+    },
+    "theme": {
+        "light": "Light mode",
+        "dark": "Dark mode"
+    },
+    "language": {
+        "spanish": "Spanish",
+        "english": "English"
+    },
+    "invoices": {
+        "title": "Registered invoices",
+        "description": "View and manage registered invoices.",
+        "new_invoice": "New invoice",
+        "history": "Invoice history",
+        "records": "records",
+        "folio": "Invoice number",
+        "client": "Client",
+        "date": "Date",
+        "currency": "Currency",
+        "total": "Total",
+        "actions": "Actions",
+        "empty": "No invoices registered.",
+        "view_detail": "View details",
+        "filter_title": "Filter invoices",
+        "filter_client": "Client",
+        "all_clients": "All clients",
+        "filter_currency": "Currency",
+        "all_currencies": "All currencies",
+        "start_date": "Start date",
+        "end_date": "End date",
+        "filter_button": "Filter",
+        "clear_filters": "Clear filters",
+        "invalid_date_range": "The start date cannot be later than the end date."
+    },
+    "common": {
+        "back": "Back",
+        "client": "Client",
+        "actions": "Actions",
+        "subtotal": "Subtotal:",
+        "tax": "VAT (16%):",
+        "total": "Total:",
+        "cancel": "Cancel"
+    },
+    "create_invoice": {
+        "title": "New invoice",
+        "description": "Create a new invoice and its corresponding items.",
+        "general_data": "General information",
+        "select_client": "Select client",
+        "currency": "Currency",
+        "select_currency": "Select currency",
+        "series": "Series",
+        "select_series": "Select series",
+        "issue_date": "Issue date",
+        "items": "Invoice items",
+        "add_item": "Add item",
+        "concept": "Description",
+        "quantity": "Quantity",
+        "unit_price": "Unit price",
+        "amount": "Amount",
+        "items_help": "Add the items corresponding to the invoice.",
+        "summary": "Invoice summary",
+        "save": "Save invoice",
+        "item_placeholder": "Product or service description",
+        "delete_item": "Delete item"
+    },
+    "alerts": {
+        "delete_item_title": "Delete item?",
+        "delete_item_text": "This item will be removed from the invoice.",
+        "delete": "Yes, delete",
+        "no_items_title": "No items",
+        "no_items_text": "You must add at least one product or service.",
+        "invalid_item_title": "Invalid item",
+        "invalid_item_text": "Check the description, quantity and price of your items.",
+        "save_invoice_title": "Register invoice?",
+        "save_invoice_text": "The invoice and its corresponding items will be saved.",
+        "confirm_register": "Yes, register",
+        "review": "Review"
+    },
+    "invoice_detail": {
+        "title": "Invoice details",
+        "description": "View the information of the registered invoice.",
+        "generate_pdf": "Generate PDF",
+        "document_information": "Invoice information",
+        "series": "Series:",
+        "number": "Number:",
+        "date": "Date:",
+        "currency": "Currency:",
+        "client_information": "Customer information",
+        "name": "Name:",
+        "items": "Invoice items"
+    }
+}

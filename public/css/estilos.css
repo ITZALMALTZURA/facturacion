@@ -1,0 +1,179 @@
+
+/* =========================================
+   VARIABLES DEL TEMA CLARO
+========================================= */
+:root {
+    color-scheme: light;
+
+    --color-fondo: #f5f7fb;
+    --color-superficie: #ffffff;
+    --color-texto: #212529;
+    --color-texto-secundario: #6c757d;
+    --color-borde: #eeeeee;
+    --color-tabla: #f8f9fa;
+    --color-total: #f8f9fa;
+    --color-sombra: rgba(0, 0, 0, 0.05);
+    --color-total-final: #198754;
+}
+
+/* =========================================
+   VARIABLES DEL TEMA OSCURO
+========================================= */
+[data-theme="dark"] {
+    color-scheme: dark;
+
+    --color-fondo: #171b24;
+    --color-superficie: #222936;
+    --color-texto: #e5e7eb;
+    --color-texto-secundario: #aab2bf;
+    --color-borde: #374151;
+    --color-tabla: #2b3442;
+    --color-total: #2b3442;
+    --color-sombra: rgba(0, 0, 0, 0.25);
+    --color-total-final: #75d69c;
+}
+
+/* =========================================
+   ESTRUCTURA GENERAL
+========================================= */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar-brand {
+    letter-spacing: 0.3px;
+}
+
+.navbar .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* =========================================
+   TARJETAS
+========================================= */
+.card {
+    background-color: var(--color-superficie);
+    color: var(--color-texto);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--color-sombra);
+}
+
+.card-header {
+    background-color: var(--color-superficie);
+    color: var(--color-texto);
+    border-bottom: 1px solid var(--color-borde);
+    font-weight: 600;
+    padding: 16px 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* =========================================
+   FORMULARIOS
+========================================= */
+.form-label {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-control,
+.form-select {
+    background-color: var(--color-superficie);
+    color: var(--color-texto);
+    border-color: var(--color-borde);
+    border-radius: 7px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: var(--color-superficie);
+    color: var(--color-texto);
+}
+
+.form-control::placeholder {
+    color: var(--color-texto-secundario);
+}
+
+/* =========================================
+   BOTONES
+========================================= */
+.btn {
+    border-radius: 7px;
+}
+
+/* =========================================
+   TABLAS
+========================================= */
+.table {
+    color: var(--color-texto);
+}
+
+.table thead th {
+    background-color: var(--color-tabla);
+    color: var(--color-texto);
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+[data-theme="dark"] .table {
+    --bs-table-bg: var(--color-superficie);
+    --bs-table-color: var(--color-texto);
+    --bs-table-border-color: var(--color-borde);
+    --bs-table-striped-bg: #293241;
+    --bs-table-striped-color: var(--color-texto);
+    --bs-table-hover-bg: #303b4b;
+    --bs-table-hover-color: var(--color-texto);
+}
+
+/* =========================================
+   TOTALES
+========================================= */
+.total-box {
+    background-color: var(--color-total);
+    color: var(--color-texto);
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.total-final {
+    color: var(--color-total-final);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+.footer {
+    margin-top: auto;
+    background-color: var(--color-superficie) !important;
+    color: var(--color-texto);
+    border-color: var(--color-borde) !important;
+}
+
+.text-muted {
+    color: var(--color-texto-secundario) !important;
+}
